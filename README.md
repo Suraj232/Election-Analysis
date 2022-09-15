@@ -20,5 +20,5 @@ For example
 - First change can be made by using different csv file. 
 - For example, At the very beginning of the code at line no. 9 file_to_load = os.path.join(“election_results.csv”)
   If another file with the same format data is uploaded, then the code will work fine and give the results accordingly.
-- Second changes required will be inidentifying the correct header names from the csv file. If the csv data’s have different header, then the selection of columns for  rows[ ] function will be different. For example, if the county name is in column 3 and candidate is in column 2 then only changes required is to mention the correct column number in row[ ] function.
+- Second changes required will be in identifying the correct header names from the csv file. If the csv data’s have different header, then the selection of columns for  rows[ ] function will be different. For example, if the county name is in column 3 and candidate is in column 2 then only changes required is to mention the correct column number in row[ ] function.
 For example: Candidate_name = row[1]
